@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: layer2}
+  - {t: INTERNATIONAL3, h: layer2}
   - $$mdi:volume-off$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - F12
+  - Sft+0x87
   - {t: '$$mdi:transfer$$', type: trans}
   - MB4
   - $$mdi:mouse-right-click-outline$$
@@ -90,8 +90,8 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - {t: '-', s: _}
   - {t: '=', s: +}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace-reverse-outline$$
@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -116,8 +116,8 @@ layers:
   - PG DN
   - PG UP
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
+  - '|'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -125,8 +125,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - LANGUAGE 1
   - {t: '$$mdi:transfer$$', type: trans}
+  - LANGUAGE 1
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
