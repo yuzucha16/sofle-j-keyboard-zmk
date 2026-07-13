@@ -97,7 +97,7 @@
 &kp ESC       &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &kp UP_ARROW     &kp N6           &kp N7           &kp N8       &kp N9           &kp N0            &kp BACKSPACE
 &kp TAB       &kp Q            &kp W           &kp E            &kp R            &kp T              &kp DOWN_ARROW   &kp Y            &kp U            &kp I        &kp O            &kp P             &kp BSLH
 &mt RCTRL ESC &kp A            &kp S           &kp D            &kp F            &kp G              &kp LEFT_ARROW   &kp H            &kp J            &kp K        &kp L            &mt RCTRL SEMI    &kp APOS
-&kp LSHFT     &kp Z            &kp X           &kp C            &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA    &kp DOT          &mt RALT FSLH     &kp ENTER
+&kp LSHFT     &kp Z            &kp X           &kp C            &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA    &kp DOT          &mt RALT FSLH     &lt 2 ENTER
 &kp C_MUTE    &kp LGUI         &kp LALT        &kp LANGUAGE_2   &lt 1 SPACE      &kp DELETE         &kp ENTER        &kp BACKSPACE    &mt RSHFT ENTER  &kp RALT     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
@@ -111,7 +111,7 @@
 &trans        &kp GRAVE        &mkp RCLK       &mkp MCLK        &mkp LCLK        &mkp MB4           &mmv MOVE_DOWN   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP &msc SCRL_RIGHT  &kp MINUS         &kp EQUAL
 &kp LGUI      &kp TAB          &kp DELETE      &kp ENTER        &kp BACKSPACE    &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LALT      &kp RC(RA(DEL))  &kp LG(LS(S))   &kp RC(Y)        &kp RC(Z)        &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp HOME         &kp PG_DN        &kp PG_UP    &kp END          &trans            &trans
-&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans       &trans           &trans
+&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp LANGUAGE_1   &trans           &trans       &trans           &trans
             >;
 
             display-name = "layer1";
