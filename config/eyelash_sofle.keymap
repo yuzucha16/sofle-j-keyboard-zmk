@@ -98,7 +98,7 @@
 &kp TAB       &kp Q          &kp W           &kp E            &kp R            &kp T              &kp DOWN_ARROW   &kp Y            &kp U            &kp I        &kp O            &kp P             &kp LEFT_BRACKET
 &mt RCTRL ESC &kp A          &kp S           &kp D            &kp F            &kp G              &kp LEFT_ARROW   &kp H            &kp J            &kp K        &kp L            &mt RCTRL SEMI    &kp SINGLE_QUOTE
 &kp LSHFT     &kp Z          &kp X           &kp C            &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA    &kp DOT          &mt RALT FSLH     &kp INT1
-&kp C_MUTE    &kp LGUI       &kp LALT        &kp LANGUAGE_2   &lt 1 SPACE      &kp DELETE         &kp ENTER        &kp BACKSPACE    &mt RSHFT ENTER  &kp RALT     &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE    &kp LGUI       &kp LALT        &kp LANGUAGE_2   &lt 1 SPACE      &kp DELETE         &kp ENTER        &kp BACKSPACE    &kp ENTER        &kp RALT     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -107,7 +107,7 @@
 
         layer_1 {
             bindings = <
-&kp F11       &kp F1         &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9           &kp F10           &kp LS(BSLH)
+&kp F11       &kp F1         &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9           &kp F10           &kp LS(INT3)
 &trans        &kp MB4        &mkp RCLK       &mkp MCLK        &mkp LCLK        &mkp MB5           &mmv MOVE_DOWN   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP &msc SCRL_RIGHT  &kp EQUAL         &kp PLUS
 &trans        &kp TAB        &kp DELETE      &kp ENTER        &kp BACKSPACE    &kp LG(LS(S))      &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT        &kp RIGHT_BRACKET &kp RIGHT_BRACE
 &trans        &kp LGUI       &kp LALT        &kp RC(Y)        &kp RC(Z)        &kp RC(RA(DEL))    &mmv MOVE_RIGHT  &kp HOME         &kp PG_DN        &kp PG_UP    &kp END          &kp BACKSLASH     &kp PIPE
@@ -120,9 +120,9 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &trans  &trans      &trans     &trans       &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &trans       &trans
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
