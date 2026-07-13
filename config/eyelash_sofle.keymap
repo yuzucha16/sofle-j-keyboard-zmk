@@ -94,10 +94,10 @@
 
         layer0 {
             bindings = <
-&kp ESC       &kp N1         &kp N2          &kp N3           &kp N4           &kp N5             &kp UP_ARROW     &kp N6           &kp N7           &kp N8       &kp N9           &kp N0            &kp MINUS
+&kp GRAVE     &kp N1         &kp N2          &kp N3           &kp N4           &kp N5             &kp UP_ARROW     &kp N6           &kp N7           &kp N8       &kp N9           &kp N0            &kp MINUS
 &kp TAB       &kp Q          &kp W           &kp E            &kp R            &kp T              &kp DOWN_ARROW   &kp Y            &kp U            &kp I        &kp O            &kp P             &kp LEFT_BRACKET
 &mt RCTRL ESC &kp A          &kp S           &kp D            &kp F            &kp G              &kp LEFT_ARROW   &kp H            &kp J            &kp K        &kp L            &mt RCTRL SEMI    &kp SINGLE_QUOTE
-&kp LSHFT     &kp Z          &kp X           &kp C            &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA    &kp DOT          &mt RALT FSLH     &kp INTERNATIONAL_3
+&kp LSHFT     &kp Z          &kp X           &kp C            &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA    &kp DOT          &mt RALT FSLH     &kp INT1
 &kp C_MUTE    &kp LGUI       &kp LALT        &kp LANGUAGE_2   &lt 1 SPACE      &kp DELETE         &kp ENTER        &kp BACKSPACE    &mt RSHFT ENTER  &kp RALT     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
@@ -107,7 +107,7 @@
 
         layer_1 {
             bindings = <
-&kp F11       &kp F1         &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9           &kp F10           &kp LS(0x87)
+&kp F11       &kp F1         &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9           &kp F10           &kp LS(BSLH)
 &trans        &kp MB4        &mkp RCLK       &mkp MCLK        &mkp LCLK        &mkp MB5           &mmv MOVE_DOWN   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP &msc SCRL_RIGHT  &kp EQUAL         &kp PLUS
 &trans        &kp TAB        &kp DELETE      &kp ENTER        &kp BACKSPACE    &kp LG(LS(S))      &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT        &kp RIGHT_BRACKET &kp RIGHT_BRACE
 &trans        &kp LGUI       &kp LALT        &kp RC(Y)        &kp RC(Z)        &kp RC(RA(DEL))    &mmv MOVE_RIGHT  &kp HOME         &kp PG_DN        &kp PG_UP    &kp END          &kp BACKSLASH     &kp PIPE
