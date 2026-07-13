@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
-  - INTERNATIONAL 3
+  - INT1
   - $$mdi:volume-off$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - Sft+0x87
+  - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - MB4
   - $$mdi:mouse-right-click-outline$$
