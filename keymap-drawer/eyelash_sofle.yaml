@@ -125,10 +125,10 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
+  - '&scrl_down'
+  - '&scrl_left'
+  - '&scrl_right'
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
   - '~'
