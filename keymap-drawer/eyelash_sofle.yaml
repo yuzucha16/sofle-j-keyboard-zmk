@@ -105,7 +105,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&lp LALT'
+  - $$mdi:apple-keyboard-option$$
   - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   - Gui+Sft+S
   - Ctl+Y
