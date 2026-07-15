@@ -28,7 +28,7 @@ layers:
   - P
   - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - S
   - D
   - F
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -51,20 +51,20 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
+  - {t: /, h: RGUI, s: '?'}
   - INT1
   - $$mdi:volume-off$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - LANGUAGE 2
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - LANGUAGE 2
   - layer2
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - LANGUAGE 1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - layer2
   layer1:
   - F11
   - F1
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - LANGUAGE 1
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   layer3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
