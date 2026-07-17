@@ -41,7 +41,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - {t: Z, h: LGUI}
   - X
   - C
   - V
@@ -51,19 +51,19 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - INT1
   - $$mdi:volume-off$$
-  - $$mdi:backspace-reverse-outline$$
+  - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - LGUI
+  - $$mdi:backspace-reverse-outline$$
   - layer2
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
-  - RGUI
   - layer2
   layer1:
   - F11
@@ -93,10 +93,10 @@ layers:
   - {t: '=', s: +}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - Ctl+Z
+  - Ctl+Y
+  - LANGUAGE 1
+  - LANGUAGE 2
   - Gui+Sft+S
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
@@ -106,10 +106,10 @@ layers:
   - {t: ']', s: '}'}
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - Ctl+Y
-  - Ctl+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - HOME
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
